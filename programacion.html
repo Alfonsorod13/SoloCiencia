@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoloCiencia - Registro en Curso de Programación</title>
+    <link rel="icon" type="image/x-icon" href="images/logoico.ico">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+
+</head>
+
+<body class="body-curso">
+<header>
+    <div id="banner">
+            <a href="home.html"><img class="mainlogo" src="images\logotitulow.png"></a>
+
+
+        <ul class="lista">
+			<li class="opcion"><a href="home.html">
+                Inicio</a></li>
+			<li class="opcion dropdown">
+				<a class="active">Registro a cursos</a>
+				<ul class="dropdown-menu">
+					<a href="ciencias.html"><li>Ciencias Naturales</li></a>
+					<a href="quimicabiologia.html"><li>Química y Biología</li></a>
+					<a href="programacion.html"><li>Programación</li></a>
+				</ul> 
+			</li>
+            <li class="opcion"><a href="referencias.html">Referencias</a></li>
+			<li class="opcion"><a href="contactanos.html">Contáctanos</a></li>
+		</ul>
+
+        <a href="https://instagram.com/solociencia_com?igshid=OGQ5ZDc2ODk2ZA=="><img class="instagram" src="images\instagram.png"></a>
+
+
+        <a href="https://twitter.com/solociencia_com?s=21&t=_6ZvcTnzQaqWVP_-1llbnA"><img class="twitter" src="images\twitter.png"></a>
+
+
+        <span> 
+            <form action="https://www.google.com/search" method="get">
+                <input type="text" name="q" id="search-box"  placeholder="Buscar">
+                <button class="buscar" type="submit"><img class="img-buscar" src="images/search.png"></button>
+            </form>
+        </span>
+
+    </div>
+</header>
+
+</div>
+
+<div id="programacion">
+
+    <div id="programacion">
+
+        <img id="curso-bg" src="images/code.jpg">
+
+        <div id="div-formulario">
+        
+            <title class="t_curso">Programación</title>
+            <p class="p_curso" >Adéntrate en el emocionante universo de la programación en nuestro curso. Desde los conceptos básicos hasta las tecnologías más avanzadas, adquirirás habilidades fundamentales para el mundo digital en constante evolución. Descubre cómo construir código y desbloquea tu creatividad en nuestro curso de Programación.</p>
+    
+            <h3 class="t-registro">Registro en curso</h3>
+    
+            <form action="registro_programacion.jsp" method="Post">
+                <label class="t-nombre"  for="nombre" >Nombre:</label>
+                <input class="input-nombre" placeholder="Ingrese su nombre" type="text" id="nombre" name="Nombre" required><br><br>
+            
+                <label class="t-cedula" for="cedula">Cédula:</label>
+                <input class="input-cedula" placeholder="Ingrese su cédula"  type="cedula" id="cedula" name="Cedula" required><br><br>
+            
+                <label class="t-fecha" for="Fecha">Elige la fecha de inicio del curso:</label>
+                <select class="input-fecha" id="Fecha" name="Fecha" required>
+                  <option value="">Selecciona una opción</option>
+                  <option value="20 de julio">20 de julio</option>
+                  <option value="24 de octubre">24 de octubre</option>
+                  <option value="14 de noviembre">14 de noviembre</option>
+                </select><br><br>
+            
+                <input class="boton_curso" type="submit" value="Enviar"> 
+            </form>
+        </div>
+</div>
+
+<footer>
+    <div id="menuinferior">
+      <ul class="listamenu">
+        <li class="elementos"><a href="home.html">Inicio</a></li>
+        <li class="elementos"><a href="ciencias.html">Ciencias Naturales</a></li>
+        <li class="elementos"><a href="quimicabiologia.html">Química y Biología</a></li>
+        <li class="elementos"><a href="programacion.html">Programación</a></li>
+        <li class="elementos"><a href="referencias.html">Referencias</a></li>
+        <li class="elementos"><a href="contactanos.html">Contáctanos</a></li>
+        <li style="font-size: smaller;">&copy; Solo Ciencia. 2023</li>
+        <li><button class="cerrar-sesion" onclick="location.href='login.html'">Cerrar sesión</button>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
