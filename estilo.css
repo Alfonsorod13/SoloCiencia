@@ -15,7 +15,7 @@
 .body-registro {
     background-color: #f0ebe6;
     overflow-x: hidden;
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -133,7 +133,7 @@ form {
 
 /* Estilo del botón de Crear */
 .log-button {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     margin-top: 20px;
     padding: 12px;
     width: 455px;
@@ -187,7 +187,7 @@ form {
 body {
     background-image: url(images/background.jpg);
     overflow-x: hidden;
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -219,7 +219,7 @@ body {
 
 /* Estilo de lista ordenada con el menú de navegación */
 .lista {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 400;
     display: flex;
@@ -234,7 +234,7 @@ body {
 /* Estilo de los elementos de la lista */
 .opcion {
     padding: 9px 25px 8px 25px;
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 400;    
 }
@@ -310,7 +310,7 @@ a.active {
 /* Estilo del search box del banner */
 #search-box {
     background-color: #ffffff;
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     color: #000000;
     width: 170px;
     border: 0px;
@@ -392,7 +392,7 @@ button[type="submit"]:hover {
   }
   
   .bienvenida {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     text-align: center;
     color: #ffffff;
     font-size: x-large;
@@ -459,7 +459,7 @@ button[type="submit"]:hover {
   
 /* Estilo del título del curso */
 .t-curso1 {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size:xx-large;
     color: #ffffff;
     position: absolute;
@@ -506,7 +506,7 @@ button[type="submit"]:hover {
   }
   
   .t-curso2 {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: xx-large;
     color: #ffffff;
     position: absolute;
@@ -553,7 +553,7 @@ button[type="submit"]:hover {
   }
   
   .t-curso3 {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: xx-large;
     color: #ffffff;
     position: absolute;
@@ -658,7 +658,7 @@ iframe {
 
 
 .p_noticia_1 {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: larger;
     color: #242424;
     position:absolute;
@@ -668,7 +668,7 @@ iframe {
 }
 
 .ver-mas {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: small;
     color: #242424;
     position:absolute;
@@ -691,7 +691,7 @@ iframe {
 }
 
 .p_noticia_2 {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: larger;
     color: #242424;
     position:absolute;
@@ -715,7 +715,7 @@ iframe {
 }
 
 .p_noticia_3 {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: larger;
     color: #242424;
     position:absolute;
@@ -765,7 +765,6 @@ iframe {
     width: 600px;
     height: 645px;
     flex-shrink: 0;
-    border-radius: 20px;
     background: #ffffffd5;
     text-align: justify;
     position: absolute;
@@ -805,7 +804,7 @@ iframe {
 
 /*Estilo para introducción de curso*/
 .p_curso {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     display: flex;
     position: relative;
     padding: 30px;
@@ -847,7 +846,7 @@ iframe {
 /*Estilo para los label de formulario*/
 .t-nombre {
     color: rgba(0, 0, 0, 0.884);
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     display: flex;
     position: absolute;
     top: 140px;
@@ -876,7 +875,7 @@ iframe {
 
 .t-cedula {
     color: rgba(0, 0, 0, 0.884);
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     display: flex;
     position: absolute;
     top: 235px;
@@ -903,7 +902,7 @@ iframe {
 
 .t-fecha {
     color: rgba(0, 0, 0, 0.884);
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     display: flex;
     position: absolute;
     top: 330px;
@@ -1207,7 +1206,7 @@ iframe {
 
 
 .regresar-home {
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: 15px;
     width: 200px;
     padding: 12px 16px;
@@ -1234,7 +1233,7 @@ iframe {
 /* Estilos del menú inferior */
 #menuinferior {
     background-color: #2c2c2c;
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: small;
     color: #ebebeb;
     width: 200%;
@@ -1263,7 +1262,7 @@ iframe {
 }
 
 .cerrar-sesion { 
-    font-family: "DM Sans";
+    font-family: "DM Sans", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: 13px;
     font-weight: bolder;
     width: 130px;
